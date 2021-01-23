@@ -8,6 +8,16 @@ h1 {
 
 #intro {
     padding-bottom: 5px;
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#textblock {
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
 body {
