@@ -30,7 +30,8 @@ table {
     margin: auto;
 	border-collapse: collapse;
 	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width: 80%;
 }
 
 th,
@@ -81,4 +82,40 @@ a.secondary {
 
 #exhibit * {
     text-decoration: none;
+}
+
+.footer_main {
+    width: 100%;
+    border-top: 1px solid;
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
+}
+
+.footer_main * {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    
+.footer_left {
+    width: 49%;
+    float: left;
+    display: inline;
+    top: 0;
+}
+    
+.footer_right {
+    width: 49%;
+    float: right;
+    display: inline;
+}
+
+#profile {
+    vertical-align: middle;
+}
+
+#name {
+      vertical-align: middle;
+      display: inline;
+      padding-left: 10px;
 }
