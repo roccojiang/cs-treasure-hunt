@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(45deg, #6bc287, #205F71);
+}
+
+thead th {
+  background-color: #007883;
+}
+
+tbody th {
+  background-color: #009089;
+}
